@@ -1,5 +1,5 @@
 {
-  "name": "luquinhasbrito/POTClass",
+  "name": "luquinhasbrito/pot-class",
   "description": "POT (PHP OTServ Toolkit) is a PHP toolkit for scripts that work with OTServ database.",
   "type": "library",
   "version": "0.1.5",
@@ -15,8 +15,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "luquinhasbrito\\POTClass\\": ["src"]
+      "luquinhasbrito\\pot-class\\": ["src"]
     }
-  }
-  
+  } 
 }
