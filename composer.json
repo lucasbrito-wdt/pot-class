@@ -12,11 +12,25 @@
   "require": {
     "php" : "^5.5 || ^7.0"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
+  "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "luquinhasbrito/pot-class",
+            "version": "master",
+            "source": {
+                "url": "git@github.com:luquinhasbrito/pot-class.git",
+                "type": "git",
+                "reference": "origin/master"
+            }
+        }
+    }
+  ],
   "autoload": {
     "psr-4": {
       "luquinhasbrito\\pot-class\\": ["src"]
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
