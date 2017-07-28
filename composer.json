@@ -9,7 +9,7 @@
       "email": "webdesgintechnologies@outlook.com.br"
     }
   ],
-  "require": {
+  "require-dev": {
     "php" : "^5.5 || ^7.0"
   },
   "minimum-stability": "dev",
