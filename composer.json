@@ -63,7 +63,7 @@
       "src/OTS_Spell.php",
       "src/OTS_SpellsList.php",
       "src/OTS_SQLField.php",
-      "src/OTS_SQLFilter",
+      "src/OTS_SQLFilter.php",
       "src/OTS_SQLite_Results.php",
       "src/OTS_Toolbox.php",
       "src/OTS_VocationsList.php",
