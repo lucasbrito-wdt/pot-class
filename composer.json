@@ -14,7 +14,8 @@
   },
   "autoload": {
     "classmap": [
-      "src/OTS.php"
+      "src/OTS.php",
+      "src/OTS_Account.php"
     ]
   },
   "minimum-stability": "dev",
