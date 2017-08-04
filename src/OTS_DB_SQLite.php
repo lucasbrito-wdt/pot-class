@@ -60,9 +60,5 @@ class OTS_DB_SQLite extends OTS_Base_DB
 		echo 'Can\'t connect to SQLite database.</font>';
 			exit;
 	}
-
+    }
 }
-
-/**#@-*/
-
-?>
