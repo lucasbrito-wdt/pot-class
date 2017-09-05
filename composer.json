@@ -13,7 +13,8 @@
     "php" : "^5.5 || ^7.0"
   },
   "autoload": {
-    "classmap": [
+    "classmap": [      
+      "src/InvitesDriver",
       "src/OTS.php",
       "src/OTS_Account.php",
       "src/OTS_AccountBan.php",

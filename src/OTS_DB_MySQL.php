@@ -77,6 +77,11 @@ class OTS_DB_MySQL extends OTS_Base_DB
             $dns[] = 'dbname=' . $params['database'];
         }
 
+        if( isset($params['charset']) )
+        {
+            $dns[] = 'charset=' . $params['charset'];
+        }        
+        
         if( isset($params['user']) )
         {
             $user = $params['user'];
@@ -91,19 +96,18 @@ class OTS_DB_MySQL extends OTS_Base_DB
         {
             $this->prefix = $params['prefix'];
         }
-
+        
         // PDO constructor
 	try
 	{
-		parent::__construct('mysql:' . implode(';', $dns), $user, $password);
+          parent::__construct('mysql:' . implode(';', $dns), $user, $password);
 	}
 	catch(PDOException $error)
 	{
-		echo 'Can\'t connect to MySQL database.</font>';
-			exit;
+          echo 'Não é possível conectar-se ao banco de dados MySQL.</font>';
+          exit;
 	}
     }
-
 
 /**
  * Query-quoted field name.
