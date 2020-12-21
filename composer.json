@@ -14,7 +14,7 @@
   },
   "autoload": {
     "classmap": [      
-      "src/InvitesDriver",
+      "src/InvitesDriver.php",
       "src/OTS.php",
       "src/OTS_Account.php",
       "src/OTS_AccountBan.php",
